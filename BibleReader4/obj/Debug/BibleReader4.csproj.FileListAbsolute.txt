@@ -1,0 +1,17 @@
+c:\users\lertsirikarn\documents\visual studio 2015\Projects\BibleReader4\BibleReader4\bin\Debug\BibleReader4.exe.config
+c:\users\lertsirikarn\documents\visual studio 2015\Projects\BibleReader4\BibleReader4\bin\Debug\BibleReader4.exe
+c:\users\lertsirikarn\documents\visual studio 2015\Projects\BibleReader4\BibleReader4\bin\Debug\BibleReader4.pdb
+c:\users\lertsirikarn\documents\visual studio 2015\Projects\BibleReader4\BibleReader4\bin\Debug\HtmlRenderer.dll
+c:\users\lertsirikarn\documents\visual studio 2015\Projects\BibleReader4\BibleReader4\bin\Debug\HtmlRenderer.WinForms.dll
+c:\users\lertsirikarn\documents\visual studio 2015\Projects\BibleReader4\BibleReader4\bin\Debug\HtmlRenderer.pdb
+c:\users\lertsirikarn\documents\visual studio 2015\Projects\BibleReader4\BibleReader4\bin\Debug\HtmlRenderer.WinForms.pdb
+c:\users\lertsirikarn\documents\visual studio 2015\Projects\BibleReader4\BibleReader4\obj\Debug\BibleReader4.csprojResolveAssemblyReference.cache
+c:\users\lertsirikarn\documents\visual studio 2015\Projects\BibleReader4\BibleReader4\obj\Debug\BibleReader4.Form1.resources
+c:\users\lertsirikarn\documents\visual studio 2015\Projects\BibleReader4\BibleReader4\obj\Debug\BibleReader4.Properties.Resources.resources
+c:\users\lertsirikarn\documents\visual studio 2015\Projects\BibleReader4\BibleReader4\obj\Debug\BibleReader4.csproj.GenerateResource.Cache
+c:\users\lertsirikarn\documents\visual studio 2015\Projects\BibleReader4\BibleReader4\obj\Debug\BibleReader4.exe
+c:\users\lertsirikarn\documents\visual studio 2015\Projects\BibleReader4\BibleReader4\obj\Debug\BibleReader4.pdb
+C:\Users\LERTSIRIKARN\Documents\Visual Studio 2015\Projects\BibleReader4\BibleReader4\bin\Debug\BibleReader4.exe.manifest
+C:\Users\LERTSIRIKARN\Documents\Visual Studio 2015\Projects\BibleReader4\BibleReader4\bin\Debug\BibleReader4.application
+C:\Users\LERTSIRIKARN\Documents\Visual Studio 2015\Projects\BibleReader4\BibleReader4\obj\Debug\BibleReader4.exe.manifest
+C:\Users\LERTSIRIKARN\Documents\Visual Studio 2015\Projects\BibleReader4\BibleReader4\obj\Debug\BibleReader4.application
