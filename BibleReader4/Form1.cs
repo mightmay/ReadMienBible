@@ -67,6 +67,8 @@ namespace BibleReader4
         int numberbook = 66; // total book in bible
 
         string fullpath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"mienbible\WorldEnglishBible\OT\Genesis\1.htm");
+        string fontsize = "30px";
+        string fontcolor = "black";
 
         public Form1()
         {
@@ -77,8 +79,10 @@ namespace BibleReader4
 
             string textfromfile = System.IO.File.ReadAllText(fullpath);
             //string textfromfile = System.IO.File.ReadAllText(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"mienbible\startpage.html"));
+
             htmlPanel.Text =textfromfile;
-            
+           
+
             htmlPanel.Dock = DockStyle.Fill;
             Controls.Add(htmlPanel);
             
@@ -335,8 +339,6 @@ namespace BibleReader4
                                 + booksname + @"\" + chapter;
                 fullpath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, filepath);
 
-                textfromfile2 = System.IO.File.ReadAllText(fullpath);
-                htmlPanel.Text = textfromfile2;
                 
             }
             
@@ -352,8 +354,6 @@ namespace BibleReader4
                                 + booksname + @"\" + chapter;
                 fullpath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, filepath);
 
-                textfromfile2 = System.IO.File.ReadAllText(fullpath);
-                htmlPanel.Text = textfromfile2;
                 
             }
 
@@ -370,8 +370,6 @@ namespace BibleReader4
                                 + booksname + @"\" + chapter;
                 fullpath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, filepath);
 
-                textfromfile2 = System.IO.File.ReadAllText(fullpath);
-                htmlPanel.Text = textfromfile2;
                 
             }
 
@@ -387,10 +385,12 @@ namespace BibleReader4
                                 + booksname + @"\" + chapter;
                 fullpath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, filepath);
 
-                textfromfile2 = System.IO.File.ReadAllText(fullpath);
-                htmlPanel.Text = textfromfile2;
                 
             }
+            textfromfile2 = System.IO.File.ReadAllText(fullpath);
+            textfromfile2 = textfromfile2.Replace("</head>", "<style>body{font-size:"+fontsize+ ";  color:"+ fontcolor +";}</style></head>");
+            htmlPanel.Text = textfromfile2;
+
 
         }
 
@@ -419,6 +419,7 @@ namespace BibleReader4
             toolStripComboBox3.Text = "";
 
             textfromfile2 = System.IO.File.ReadAllText(fullpath);
+            textfromfile2 = textfromfile2.Replace("</head>", "<style>body{font-size:" + fontsize + ";  color:" + fontcolor + ";}</style></head>");
 
             htmlPanel.Text = textfromfile2;
 
@@ -436,8 +437,39 @@ namespace BibleReader4
             fullpath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, filepath);
 
             textfromfile2 = System.IO.File.ReadAllText(fullpath);
+            textfromfile2 = textfromfile2.Replace("</head>", "<style>body{font-size:" + fontsize + ";  color:" + fontcolor + ";}</style></head>");
 
             htmlPanel.Text = textfromfile2;
+        }
+
+        private void FontSizecomboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            fontsize = (string)FontSizecomboBox1.SelectedItem;
+            textfromfile2 = System.IO.File.ReadAllText(fullpath);
+            textfromfile2 = textfromfile2.Replace("</head>", "<style>body{font-size:" + fontsize + ";  color:" + fontcolor + ";}</style></head>");
+
+            htmlPanel.Text = textfromfile2;
+        }
+
+        private void toolStripComboBox1_Click(object sender, EventArgs e)
+        {
+            toolStripComboBox1.DroppedDown = true;
+
+        }
+        private void toolStripComboBox2_Click(object sender, EventArgs e)
+        {
+            toolStripComboBox2.DroppedDown = true;
+
+        }
+        private void toolStripComboBox3_Click(object sender, EventArgs e)
+        {
+            toolStripComboBox3.DroppedDown = true;
+
+        }
+        private void FontSizecomboBox1_Click(object sender, EventArgs e)
+        {
+            FontSizecomboBox1.DroppedDown = true;
+
         }
     }
 }

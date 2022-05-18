@@ -15,3 +15,23 @@ C:\Users\LERTSIRIKARN\Documents\Visual Studio 2015\Projects\BibleReader4\BibleRe
 C:\Users\LERTSIRIKARN\Documents\Visual Studio 2015\Projects\BibleReader4\BibleReader4\bin\Debug\BibleReader4.application
 C:\Users\LERTSIRIKARN\Documents\Visual Studio 2015\Projects\BibleReader4\BibleReader4\obj\Debug\BibleReader4.exe.manifest
 C:\Users\LERTSIRIKARN\Documents\Visual Studio 2015\Projects\BibleReader4\BibleReader4\obj\Debug\BibleReader4.application
+C:\Users\dlertsirikar\Documents\GitHub\ReadMienBible\BibleReader4\obj\Debug\BibleReader4.csproj.AssemblyReference.cache
+C:\Users\dlertsirikar\Documents\GitHub\ReadMienBible\BibleReader4\obj\Debug\BibleReader4.csproj.SuggestedBindingRedirects.cache
+C:\Users\dlertsirikar\Documents\GitHub\ReadMienBible\BibleReader4\obj\Debug\BibleReader4.Form1.resources
+C:\Users\dlertsirikar\Documents\GitHub\ReadMienBible\BibleReader4\obj\Debug\BibleReader4.Properties.Resources.resources
+C:\Users\dlertsirikar\Documents\GitHub\ReadMienBible\BibleReader4\obj\Debug\BibleReader4.csproj.GenerateResource.cache
+C:\Users\dlertsirikar\Documents\GitHub\ReadMienBible\BibleReader4\obj\Debug\BibleReader4.csproj.CoreCompileInputs.cache
+C:\Users\dlertsirikar\Documents\GitHub\ReadMienBible\BibleReader4\obj\Debug\BibleReader4.exe
+C:\Users\dlertsirikar\Documents\GitHub\ReadMienBible\BibleReader4\obj\Debug\BibleReader4.pdb
+C:\Users\dlertsirikar\Documents\GitHub\ReadMienBible\BibleReader4\bin\Debug\BibleReader4.exe.config
+C:\Users\dlertsirikar\Documents\GitHub\ReadMienBible\BibleReader4\bin\Debug\BibleReader4.exe.manifest
+C:\Users\dlertsirikar\Documents\GitHub\ReadMienBible\BibleReader4\bin\Debug\BibleReader4.application
+C:\Users\dlertsirikar\Documents\GitHub\ReadMienBible\BibleReader4\bin\Debug\BibleReader4.exe
+C:\Users\dlertsirikar\Documents\GitHub\ReadMienBible\BibleReader4\bin\Debug\BibleReader4.pdb
+C:\Users\dlertsirikar\Documents\GitHub\ReadMienBible\BibleReader4\bin\Debug\HtmlRenderer.dll
+C:\Users\dlertsirikar\Documents\GitHub\ReadMienBible\BibleReader4\bin\Debug\HtmlRenderer.WinForms.dll
+C:\Users\dlertsirikar\Documents\GitHub\ReadMienBible\BibleReader4\bin\Debug\HtmlRenderer.pdb
+C:\Users\dlertsirikar\Documents\GitHub\ReadMienBible\BibleReader4\bin\Debug\HtmlRenderer.WinForms.pdb
+C:\Users\dlertsirikar\Documents\GitHub\ReadMienBible\BibleReader4\obj\Debug\BibleReader4.exe.manifest
+C:\Users\dlertsirikar\Documents\GitHub\ReadMienBible\BibleReader4\obj\Debug\BibleReader4.application
+C:\Users\dlertsirikar\Documents\GitHub\ReadMienBible\BibleReader4\obj\Debug\BibleReader4.csproj.CopyComplete
