@@ -409,6 +409,7 @@ namespace BibleReader4
             {
                 toolStripComboBox3.Items.Add(chap);
             }
+          
 
             //update display
             chapter = "1.htm";

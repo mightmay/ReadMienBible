@@ -51,7 +51,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(10, 4, 0, 4);
-            this.menuStrip1.Size = new System.Drawing.Size(1581, 87);
+            this.menuStrip1.Size = new System.Drawing.Size(1581, 105);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -65,7 +65,7 @@
             "ມ່ຽນ ເຍີຍ ຈັ໋ນ-ເລ້າ ດສັ່ງ - Mienh nyei Janx-Lauv nzaangc",
             "World English Bible"});
             this.toolStripComboBox1.Name = "toolStripComboBox1";
-            this.toolStripComboBox1.Size = new System.Drawing.Size(365, 79);
+            this.toolStripComboBox1.Size = new System.Drawing.Size(365, 97);
             this.toolStripComboBox1.Text = "Language";
             this.toolStripComboBox1.SelectedIndexChanged += new System.EventHandler(this.toolStripComboBox1_SelectedIndexChanged);
             this.toolStripComboBox1.Click += new System.EventHandler(this.toolStripComboBox1_Click);
@@ -74,17 +74,19 @@
             // 
             this.toolStripComboBox2.Font = new System.Drawing.Font("Segoe UI", 19.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripComboBox2.Name = "toolStripComboBox2";
-            this.toolStripComboBox2.Size = new System.Drawing.Size(199, 79);
+            this.toolStripComboBox2.Size = new System.Drawing.Size(199, 97);
             this.toolStripComboBox2.Text = "Book";
             this.toolStripComboBox2.SelectedIndexChanged += new System.EventHandler(this.toolStripComboBox2_SelectedIndexChanged);
             this.toolStripComboBox2.Click += new System.EventHandler(this.toolStripComboBox2_Click);
             // 
             // toolStripComboBox3
             // 
+            this.toolStripComboBox3.DropDownHeight = 506;
+            this.toolStripComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.toolStripComboBox3.Font = new System.Drawing.Font("Segoe UI", 19.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripComboBox3.IntegralHeight = false;
             this.toolStripComboBox3.Name = "toolStripComboBox3";
-            this.toolStripComboBox3.Size = new System.Drawing.Size(199, 79);
-            this.toolStripComboBox3.Text = "Chapter";
+            this.toolStripComboBox3.Size = new System.Drawing.Size(199, 97);
             this.toolStripComboBox3.SelectedIndexChanged += new System.EventHandler(this.toolStripComboBox3_SelectedIndexChanged);
             this.toolStripComboBox3.Click += new System.EventHandler(this.toolStripComboBox3_Click);
             // 
@@ -92,6 +94,8 @@
             // 
             this.FontSizecomboBox1.AccessibleDescription = "Select the font size";
             this.FontSizecomboBox1.AccessibleName = "Font Size";
+            this.FontSizecomboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.FontSizecomboBox1.DropDownWidth = 250;
             this.FontSizecomboBox1.Font = new System.Drawing.Font("Segoe UI", 19.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FontSizecomboBox1.Items.AddRange(new object[] {
             "6px",
@@ -112,16 +116,13 @@
             "88px",
             "96px"});
             this.FontSizecomboBox1.Name = "FontSizecomboBox1";
-            this.FontSizecomboBox1.Size = new System.Drawing.Size(200, 79);
-            this.FontSizecomboBox1.Text = "Font Size";
-            this.FontSizecomboBox1.DropDownWidth = 250;
-
+            this.FontSizecomboBox1.Size = new System.Drawing.Size(200, 97);
             this.FontSizecomboBox1.SelectedIndexChanged += new System.EventHandler(this.FontSizecomboBox1_SelectedIndexChanged);
             this.FontSizecomboBox1.Click += new System.EventHandler(this.FontSizecomboBox1_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(20F, 37F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(24F, 46F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1581, 274);
             this.Controls.Add(this.menuStrip1);
